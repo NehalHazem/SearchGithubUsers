@@ -1,0 +1,12 @@
+.myNav {
+  background-color: #ffffff;
+}
+
+.name {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.github {
+  margin-right: 5px;
+}

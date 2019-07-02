@@ -1,0 +1,23 @@
+.myInput:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dfe1e5;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(216, 139, 165);
+}
+
+.myCard {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  max-width: 800px;
+}
+
+.myBtn {
+  float: right;
+}
+
+.myImg {
+  width: 100%!important;
+  height: 300px!important;
+}

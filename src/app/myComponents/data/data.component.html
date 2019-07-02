@@ -1,0 +1,19 @@
+<div class="container">
+
+  <button class="btn btn-light mb-5" routerLink="/search" style="background: #ffffff">
+    <i class="fa fa-backward" style="margin-right: 5px;"></i><b>Back to Search</b>
+  </button>
+
+  <ul class="list-group list-group-flush mb-4">
+    <li class="list-group-item"><b>Name:</b> {{userData?.name || '--'}}</li>
+    <li class="list-group-item"><b>Username:</b> {{userData?.login || '--'}}</li>
+    <li class="list-group-item"><b>Email:</b> {{userData?.email || '--'}}</li>
+    <li class="list-group-item"><b>Company:</b> {{userData?.company || '--'}}</li>
+    <li class="list-group-item"><b>Location:</b> {{userData?.location || '--'}}</li>
+    <li class="list-group-item"><b>Created at:</b> {{userData?.created_at | date: 'yyyy/MM/dd' || '--'}}</li>
+    <li class="list-group-item"><b>Followers:</b> {{userData?.followers || '0'}}</li>
+    <li class="list-group-item"><b>Following:</b> {{userData?.following || '0'}}</li>
+    <li class="list-group-item"><b>Repositories:</b> {{userData?.public_repos || '0'}}</li>
+  </ul>
+
+</div>
